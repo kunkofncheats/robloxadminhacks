@@ -5,9 +5,6 @@ local Humanoid = Character:WaitForChild("Humanoid")
 local RootPart = Character:WaitForChild("HumanoidRootPart")
 local Mouse = Player:GetMouse()
 
--- Infinite Yield
-loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
-
 -- GUI
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Parent = Player.PlayerGui
