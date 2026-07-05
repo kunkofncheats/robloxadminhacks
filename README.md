@@ -5,7 +5,8 @@ local Humanoid = Character:WaitForChild("Humanoid")
 local RootPart = Character:WaitForChild("HumanoidRootPart")
 local Mouse = Player:GetMouse()
 
-
+-- GUI
+local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Parent = Player.PlayerGui
 
 -- Main Frame
